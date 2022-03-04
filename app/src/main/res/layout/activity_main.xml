@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="9"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light"
+            android:onClick="Onclick"
+            android:text="Tasbih Fatima"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light"
+            android:onClick="btn2"
+            android:text="1st Kalma 100 Time"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light"
+            android:onClick="btn3"
+            android:text="Astagfar 100 Times"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light"
+            android:onClick="btn4"
+            android:text="Darood 100 Times"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light"
+            android:onClick="btn5"
+            android:text="Ayat karima 100 Times"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light"
+            android:onClick="btn6"
+            android:text="Reset"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_weight="1"
+            android:text="Select Tasbeeh"
+            android:textColor="@color/black"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="316dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="260sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:layout_weight="1"
+            android:background="@android:color/system_accent1_200"
+            android:onClick="count"
+            android:text="COUNT"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
